@@ -1,0 +1,32 @@
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+}
+
+.signup-blurb {
+  font-weight: 800;
+  font-family: sans-serif;
+  color: #999;
+  margin: 10px 0;
+}
+
+.signup-blurb p {
+  margin: 3px 0;
+}
+
+.has-account {
+  background-color: #4507a1;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  padding: 10px 0;
+  height: 70px;
+  width: 348px;
+  color:#efefef;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.has-account p {
+  margin-top: 28px;
+}

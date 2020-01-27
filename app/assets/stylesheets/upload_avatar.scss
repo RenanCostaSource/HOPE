@@ -1,0 +1,62 @@
+.upload-avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  font-family: sans-serif;
+  width: auto;
+  height: auto;
+  text-align: center;
+
+  img {
+    height: 400px;
+    width: 400px;
+  }
+
+  p {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  button {
+    padding: 8px 8px;
+    background: #3897f0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-radius: 8px;
+    border-width: 0px;
+    cursor: pointer;
+  }
+
+  .img-preview {
+    width: auto;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+}
+
+.upload-avatar-content {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upload-avatar-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+}

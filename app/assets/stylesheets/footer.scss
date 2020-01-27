@@ -1,0 +1,29 @@
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: sans-serif;
+  padding: 15px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.main-footer footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-footer footer a {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+.main-footer footer:last-child {
+  font-size: 12px;
+}

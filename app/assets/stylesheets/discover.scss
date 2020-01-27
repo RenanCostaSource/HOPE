@@ -1,0 +1,89 @@
+.discover-user-body {
+  height: 70vh;
+}
+
+.user-list {
+  width: 30%;
+  min-width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  font-family: sans-serif;
+  background: #fff;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+
+  img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.delete-btn {
+  -webkit-appearance: none;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  outline: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 30%;
+  background: #f03838;
+  border-color: #f03838;
+  color: #fff;
+  padding: 0 24px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
+.user-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+
+  button {
+    width: 80px;
+    padding: 0 8px;
+
+  }
+
+  section {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.user-list-item div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  p {
+    font-weight: 600;
+    line-height: 18px;
+    color: #262626;
+    font-size: 15px;
+  }
+
+  span {
+    color: #999;
+    line-height: 18px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+  }
+}

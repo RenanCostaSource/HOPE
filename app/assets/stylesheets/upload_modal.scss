@@ -1,0 +1,107 @@
+.upload-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  font-family: sans-serif;
+  width: auto;
+  height: auto;
+
+  input {
+    font-size: 14px;
+    border: 0;
+    border: none;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  label {
+    width: 150px;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  p {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  button {
+    padding: 8px 8px;
+    background: #3897f0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-radius: 8px;
+    border-width: 0px;
+    cursor: pointer;
+  }
+}
+
+.file-name {
+  width: 60%;
+  margin: auto;
+  padding-left: 15px;
+}
+
+.upload-modal-content {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upload-caption {
+  align-content: center;
+  background: 0 0;
+  border: none;
+  color: #262626;
+  font-size: inherit;
+  outline: none;
+  resize: none;
+  overflow: visible;
+  width: 150px;
+  height: 150px;
+}
+
+.img-preview {
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.upload-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+}
+
+.drag-drop-zone {
+  width: 400px;
+  height: 400px;
+  background-image: url(asset-path("dragdropfile.gif"));
+  background-size: cover;
+}
+
+.cancel-submit {
+  display: flex;
+}
